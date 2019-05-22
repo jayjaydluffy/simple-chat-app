@@ -1,0 +1,15 @@
+.Chat {
+    height: calc(100vh - (58px + 95px));
+    overflow-y: auto;
+}
+.ChatBox {
+    font-size: 20px;
+}
+.Sent div, .Received div {
+    display: inline-block;
+    font-size: 18px;
+    max-width: 75%;
+}
+.Sent {
+    text-align: right;
+}
